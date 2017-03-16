@@ -6,40 +6,60 @@
     <title>Brian D. Weber</title>
     <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">    -->
     <link href="https://fonts.googleapis.com/css?family=Lato:200" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <div class="header">
-        <div id="imgItem">
-          <img src="" alt="Logo Image">
-        </div>
+        <picture>
+          <img id="udacityImage" src="images/udacity-logo.png" alt="Logo Image">
+        </picture>
         <div id="nameStack">
           <p id="name">Brian D. Weber</p>
           <p id="stack">Full-Stack Developer</p>
         </div>
     </div>
+
     <div class="container">
       <div class="jumbo">
-        <img src="jumbo.jpg" alt="jumbo image">
-        <p>Featured Work</p>
-        <div class="thumbnailContainer">
-          <div class="thumbnails">
-            <img src="images_src/appify.jpg" alt="Appify">
-            <p>APPIFY</p>
-            <p>https://github.com/udacity/Appify/</p>
-          </div>
-          <div class="thumbnails">
-            <img src="images_src/sunflower.jpg" alt="Sunflower">
-            <p>SUNFLOWER</p>
-            <p>https://github.com/udacity/Appify/</p>
-          </div>
-          <div class="thumbnails">
-            <img src="images_src/bokeh.jpg" alt="Bokeh">
-            <p>BOKEH</p>
-            <p>https://github.com/udacity/Appify/</p>
-          </div>
-        </div>
+        <source media="(min-width: 800px)" srcset="images/jumbo-1600_large_2x.jpg 2x, images/jumbo-800_large_1x.jpg" />
+        <source media="(min-width: 550px)" srcset="images/jumbo-550_medium.jpg" />
+        <img id="jumboImg" src="images/jumbo-300_small.jpg" alt="jumbo image">
       </div>
+      <p id="featured">Featured Work</p>
+
+      <div class="thumbnailContainer">
+
+        <div class="thumbnails">
+          <picture>
+            <source media="(min-width: 800px)" srcset="images/appify-1600_large_2x.jpg 2x, images/appify-800_large_1x.jpg" />
+            <source media="(min-width: 550px)" srcset="images/appify-550_medium.jpg" />
+            <img src="images/appify-300_small.jpg" alt="Appify">
+          </picture>
+          <p>APPIFY</p>
+          <p>https://github.com/udacity/Appify/</p>
+        </div>
+
+        <div class="thumbnails">
+          <picture>
+            <source media="(min-width: 800px)" srcset="images/appify-1600_large_2x.jpg 2x, images/appify-800_large_1x.jpg" />
+            <source media="(min-width: 550px)" srcset="images/appify-550_medium.jpg" />
+            <img src="images/appify-300_small.jpg" alt="Appify">
+          </picture>
+          <p>SUNFLOWER</p>
+          <p>https://github.com/udacity/Appify/</p>
+        </div>
+
+        <div class="thumbnails">
+          <picture>
+            <source media="(min-width: 800px)" srcset="images/appify-1600_large_2x.jpg 2x, images/appify-800_large_1x.jpg" />
+            <source media="(min-width: 550px)" srcset="images/appify-550_medium.jpg" />
+            <img src="images/appify-300_small.jpg" alt="Appify">
+          </picture>
+          <p>BOKEH</p>
+          <p>https://github.com/udacity/Appify/</p>
+        </div>
+
+        </div>
     </div>
   </body>
 </html>
