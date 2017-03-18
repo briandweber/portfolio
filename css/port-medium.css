@@ -15,5 +15,9 @@
 }
 
 .thumbnails p:first-of-type {
+  margin-bottom: 0;
+}
+
+.thumbnails p:last-of-type {
   margin-bottom: 20px;
 }
