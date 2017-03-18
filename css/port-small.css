@@ -1,0 +1,33 @@
+p {
+  font-size: .3em;
+}
+
+.thumbnailContainer {
+  display: block;
+}
+
+.thumbnails {
+  margin: auto;
+  width: 60%;
+  font-size: 10px;
+}
+
+.thumbnails p:first-of-type {
+  margin-bottom: 20px;
+}
+
+ #featured {
+   text-align: center;
+ }
+
+ #appifyGit {
+   display: none;
+ }
+
+ #sunflowerGit {
+   display: none;
+ }
+
+ #bokehGit {
+   display: none;
+ }

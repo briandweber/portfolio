@@ -7,23 +7,27 @@
     <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">    -->
     <link href="https://fonts.googleapis.com/css?family=Lato:200" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="screen and (max-width: 750px)" href="css/port-medium.css">
+    <link rel="stylesheet" media="screen and (max-width: 450px)" href="css/port-small.css">
+    <script src="https://use.fontawesome.com/9521633399.js"></script>
   </head>
   <body>
+
     <div class="header">
-        <picture>
-          <img id="udacityImage" src="images/udacity-logo.png" alt="Logo Image">
+        <picture id="udacityImage">
+          <img src="images_src/udacity-logo.png" alt="Logo Image">
         </picture>
         <div id="nameStack">
-          <p id="name">Brian D. Weber</p>
-          <p id="stack">Full-Stack Developer</p>
+          <p id="name">BRIAN D WEBER</p>
+          <p id="stack">FRONT-END NINJA</p>
         </div>
     </div>
 
     <div class="container">
       <div class="jumbo">
-        <source media="(min-width: 800px)" srcset="images/jumbo-1600_large_2x.jpg 2x, images/jumbo-800_large_1x.jpg" />
-        <source media="(min-width: 550px)" srcset="images/jumbo-550_medium.jpg" />
-        <img id="jumboImg" src="images/jumbo-300_small.jpg" alt="jumbo image">
+        <source media="(min-width: 750px)" srcset="images/jumbo-1600_large_2x.jpg 2x, images/jumbo-800_large_1x.jpg" />
+        <source media="(min-width: 450px)" srcset="images/jumbo-750_medium.jpg" />
+        <img id="jumboImg" src="images/jumbo-450_small.jpg" alt="jumbo image">
       </div>
       <p id="featured">Featured Work</p>
 
@@ -31,32 +35,44 @@
 
         <div class="thumbnails">
           <picture>
-            <source media="(min-width: 800px)" srcset="images/appify-1600_large_2x.jpg 2x, images/appify-800_large_1x.jpg" />
-            <source media="(min-width: 550px)" srcset="images/appify-550_medium.jpg" />
-            <img src="images/appify-300_small.jpg" alt="Appify">
+            <source media="(min-width: 750px)" srcset="images/appify-1600_large_2x.jpg 2x, images/appify-800_large_1x.jpg" />
+            <source media="(min-width: 450px)" srcset="images/appify-750_medium.jpg" />
+            <img src="images/appify-450_small.jpg" alt="Appify">
           </picture>
-          <p>APPIFY</p>
-          <p>https://github.com/udacity/Appify/</p>
+          <p>
+              <a href="#">APPIFY</a>
+          </p>
+          <p id="appifyGit">
+            <a href="#">https://github.com/udacity/</a>
+          </p>
         </div>
 
         <div class="thumbnails">
           <picture>
-            <source media="(min-width: 800px)" srcset="images/appify-1600_large_2x.jpg 2x, images/appify-800_large_1x.jpg" />
-            <source media="(min-width: 550px)" srcset="images/appify-550_medium.jpg" />
-            <img src="images/appify-300_small.jpg" alt="Appify">
+            <source media="(min-width: 750px)" srcset="images/sunflower-1600_large_2x.jpg 2x, images/sunflower-800_large_1x.jpg" />
+            <source media="(min-width: 450px)" srcset="images/sunflower-750_medium.jpg" />
+            <img src="images/sunflower-450_small.jpg" alt="Appify">
           </picture>
-          <p>SUNFLOWER</p>
-          <p>https://github.com/udacity/Appify/</p>
+          <p>
+            <a href="#">SUNFLOWER</a>
+          </p>
+          <p id="sunflowerGit">
+            <a href="#">https://github.com/udacity/</a>
+          </p>
         </div>
 
         <div class="thumbnails">
           <picture>
-            <source media="(min-width: 800px)" srcset="images/appify-1600_large_2x.jpg 2x, images/appify-800_large_1x.jpg" />
-            <source media="(min-width: 550px)" srcset="images/appify-550_medium.jpg" />
-            <img src="images/appify-300_small.jpg" alt="Appify">
+            <source media="(min-width: 750px)" srcset="images/bokeh-1600_large_2x.jpg 2x, images/bokeh-800_large_1x.jpg" />
+            <source media="(min-width: 450px)" srcset="images/bokeh-750_medium.jpg" />
+            <img src="images/bokeh-450_small.jpg" alt="Appify">
           </picture>
-          <p>BOKEH</p>
-          <p>https://github.com/udacity/Appify/</p>
+          <p>
+            <a href="#">BOKEH</a>
+          </p>
+          <p id="bokehGit">
+            <a href="#">https://github.com/udacity/</a>
+          </p>
         </div>
 
         </div>

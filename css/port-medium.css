@@ -1,0 +1,23 @@
+.thumbnailContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.thumbnails {
+  width: 40%;
+  margin: auto;
+}
+
+#featured {
+  text-align: center;
+}
+
+.thumbnails p:first-of-type {
+  margin-bottom: 20px;
+}
+
+.thumbnails p:last-of-type {
+  display: none;
+}

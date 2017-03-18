@@ -1,17 +1,17 @@
 module.exports = function(grunt){
 
   grunt.initConfig({
-
+    //create faster-loading images from images_src directory
     responsive_images: {
       dev: {
         options: {
           engine: 'im',
           sizes: [{
-            width: 300,
+            width: 450,
             suffix: '_small',
             quality: 30
           }, {
-            width: 550,
+            width: 750,
             suffix: '_medium',
             quality: 30
           }, {
@@ -33,12 +33,14 @@ module.exports = function(grunt){
       }
     },
 
+    //clean out outdated images directory
     clean: {
       dev: {
         src: ['images'],
       },
     },
 
+    //make new images directory
     mkdir: {
       dev: {
         options: {
@@ -49,9 +51,12 @@ module.exports = function(grunt){
 
   });
 
+  //load tasks
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-mkdir');
+
+  //execute tasks
   grunt.registerTask('default', ['clean', 'mkdir', 'responsive_images']);
 
 }
