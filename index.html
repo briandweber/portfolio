@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 
-//Responsive webpage.  Thumbnails are single column for small viewports.
-//2 thumbnails per column for mid-size viewports, and 3 for larger vps.
-//I used source images from previous files for image placeholders.
+<!-- Responsive webpage.  Thumbnails are single column for small viewports.
+2 thumbnails per column for mid-size viewports, and 3 for larger vps.
+I used source images from previous files for image placeholders. -->
 
 <html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
     <title>Brian D. Weber</title>
-    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">    -->
     <link href="https://fonts.googleapis.com/css?family=Lato:200" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" media="screen and (max-width: 750px)" href="css/port-medium.css">
     <link rel="stylesheet" media="screen and (max-width: 450px)" href="css/port-small.css">
-    <script src="https://use.fontawesome.com/9521633399.js"></script>
   </head>
   <body>
 
-    //udacity logo, name and description
+    <!-- udacity logo, name and description -->
     <div class="header">
         <picture id="udacityImage">
           <img src="images_src/udacity-logo.png" alt="Logo Image">
@@ -29,7 +27,7 @@
         </div>
     </div>
 
-    //div for jumbo and thumbnails
+    <!-- div for jumbo and thumbnails -->
     <div class="container">
       <div class="jumbo">
         <source media="(min-width: 750px)" srcset="images/jumbo-1600_large_2x.jpg 2x, images/jumbo-800_large_1x.jpg" />
@@ -38,9 +36,9 @@
       </div>
       <p id="featured">Featured Work</p>
 
-      //div for thumbnails container
+      <!-- div for thumbnails container -->
       <div class="thumbnailContainer">
-        //appify
+        <!-- appify -->
         <div class="thumbnails">
           <picture>
             <source media="(min-width: 750px)" srcset="images/appify-1600_large_2x.jpg 2x, images/appify-800_large_1x.jpg" />
@@ -48,10 +46,12 @@
             <img src="images/appify-450_small.jpg" alt="Appify">
           </picture>
           <p>
-              <a href="#">APPIFY</a>  //title is a link for mobile viewports
+              <!-- title is a link for mobile viewports -->
+              <a href="#">APPIFY</a>
           </p>
           <p id="appifyGit">
-            <a href="#">https://github.com/udacity/</a>  //visible link text on larger viewports
+            <!-- visible link text on larger viewports -->
+            <a href="#">https://github.com/udacity/</a>
           </p>
         </div>
 
