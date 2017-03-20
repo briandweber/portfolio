@@ -23,10 +23,14 @@ body {
   display: flex;
 }
 
+#udacityImage {
+  width: 10%;
+}
+
 #featured {
   position: relative;
   margin-left: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   font-size: 1.60em;
   font-family: 'Lato', sans-serif;
   color: #7d97ad;
@@ -71,6 +75,7 @@ body {
 
 .thumbnails {
   width: 33.3333%;
+  height: 300px;
   text-align: center;
   font-family: 'Lato', sans-serif;
   color: #2d3c49;
