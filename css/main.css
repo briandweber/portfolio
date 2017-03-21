@@ -23,10 +23,6 @@ body {
   display: flex;
 }
 
-#udacityImage {
-  width: 10%;
-}
-
 #featured {
   position: relative;
   margin-left: 10px;
